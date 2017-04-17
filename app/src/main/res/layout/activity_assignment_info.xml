@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="rachelmiller.takehomeassignment11_rachelm.activity_assignment_info">
+
+    <ImageView
+        android:id="@+id/assignmenttype_detail"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        tools:scr="@drawable/english" />
+
+    <TextView
+        android:id="@+id/assignment_name_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="32sp"
+        android:text="@string/assignment_name_detail" />
+
+    <TextView
+        android:id="@+id/dueDate_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="26sp"
+        android:text="@string/duedate_detail" />
+
+
+</LinearLayout>

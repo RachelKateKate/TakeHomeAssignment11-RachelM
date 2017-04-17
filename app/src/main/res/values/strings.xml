@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">TakeHomeAssignment11-RachelM</string>
+    <string name="assignmentName">Assignment Name</string>
+    <string name="due_date">due date</string>
+    <string name="assignment_name">Assignment Name</string>
+    <string name="duedate_detail">DueDate</string>
+    <string name="assignment_name_detail">assignmentname</string>
 </resources>
